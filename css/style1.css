@@ -1,3 +1,14 @@
+.jumbotron{
+  margin-bottom:0;
+}
+
+h2{
+  font: italic 18px "Arial Black", sans-serif;
+  text-align: center;
+  color: #FFF;
+
+}
+
 .dark-box {
   background-color: #333;
   color: #FFF;
@@ -11,6 +22,47 @@
   background-color:#89A3B4;
 }
 
-#loginbox  {
-  top: -300px;
+.pink-box{
+  background-color:#B59996;
+}
+
+.red-box{
+  background-color:#5E1D15;
+  color:#FFF;
+}
+
+#logging-in .row{
+  padding-bottom: 10px;
+}
+
+
+#specialh2.jumbotron{
+  background-color:#B59996;
+  color:#333;
+  margin: 0px;
+  padding:0px;
+}
+
+#specialh2 h2{
+  font: 32px "Cooper Black", Arial, Sans-serif;
+  margin: 0px;
+  padding:0px;
+  color: #333;
+}
+
+#specialh2 .superBig{
+  font-size: 180%;
+}
+
+.container {
+  max-width: 600px;
+}
+
+#specialBorder{
+  border-color: #333;
+  border-width:2px;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: solid;
 }
